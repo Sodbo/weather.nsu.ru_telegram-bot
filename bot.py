@@ -21,11 +21,9 @@ bot = telebot.TeleBot(config.token)
 def morning_message(message):
     global cached_temp_value
     if time.time() - cached_temp_value[1]<300:
-        print("I'm using cached data")
         temp_mes = message_nsu_temp(cached_temp_value[0])
         bot.send_message(message.chat.id, temp_mes)
     else:
-        print("I'm loading new data")
         cached_temp_value = get_nsu_temp()
         temp_mes = message_nsu_temp(cached_temp_value[0])
         bot.send_message(message.chat.id, temp_mes)
