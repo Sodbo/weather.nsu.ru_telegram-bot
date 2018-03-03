@@ -1,5 +1,5 @@
 #!/bin/bash
 
-source activate morcheka
+source activate weather
 
 python3 bot.py
