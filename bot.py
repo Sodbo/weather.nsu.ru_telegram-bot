@@ -12,6 +12,8 @@ import datetime
 from os.path import expanduser
 import logging
 
+# -*- coding: utf-8 -*-
+
 # Open file to add log info
 home = expanduser("~")
 
