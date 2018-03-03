@@ -3,5 +3,5 @@
 # MIT License
 
 def get_nsu_temp():
-	weather_nsu_message = 'The temrerature ar1ound NSU is 0 C'
-	return(weather_nsu_message)
+    weather_nsu_message = 'The temrerature around NSU is 0 C'
+    return(weather_nsu_message)
