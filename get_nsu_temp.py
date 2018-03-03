@@ -11,7 +11,6 @@ import re
 def get_nsu_temp():
     wnsu_url = 'http://weather.nsu.ru/loadata.php'
     r = requests.get(wnsu_url)
-    print(r.text)
     nsu_temp = re.findall("cnv.innerHTML = '(.*)&deg;C';", r.text)
     nsu_temp = nsu_temp[0]
     cur_time = time.time()
