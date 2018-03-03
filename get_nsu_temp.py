@@ -15,5 +15,5 @@ def get_nsu_temp():
     soup = BeautifulSoup(response, "lxml")
     nsu_temp = str(soup.find(id="temp"))
     nsu_temp = nsu_temp.split("<")[1].split('>')[1]
-    weather_nsu_message = "Weather around NSU is " + nsu_temp
+    weather_nsu_message = "The temperature nearby NSU is " + nsu_temp
     return(weather_nsu_message)
