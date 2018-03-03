@@ -2,7 +2,7 @@
 
 Бот [@MorCheka_bot](https://web.telegram.org/#/im?p=@MorCheka_bot) отправляет вам текущую температуру около [Новосибирского государственного университета](https://www.nsu.ru/n/)
 
-Bot собирает температуру с сайта [weather.nsu.ru](http://weather.nsu.ru/).
+Бот собирает температуру с сайта [weather.nsu.ru](http://weather.nsu.ru/).
 
 Чтобы получить текущую температуру, отправьте любое сообщение боту.
 
