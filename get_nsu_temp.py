@@ -2,10 +2,8 @@
 # 20180303
 # MIT License
 
-import requests  # package for reading URLs
 import dryscrape
 from bs4 import BeautifulSoup
-import codecs
 
 def get_nsu_temp():
     wnsu_url = 'http://weather.nsu.ru/'
