@@ -3,9 +3,9 @@
 # MIT License
 
 # -*- coding: utf-8 -*-
-import telebot
-import config
-from get_nsu_temp import get_nsu_temp
+import telebot  # package for the Telegram API
+import config  # Here token is located
+from get_nsu_temp import get_nsu_temp  # Module that get temp from NSU web page
 
 # Initialize bot
 bot = telebot.TeleBot(config.token)
