@@ -1,6 +1,6 @@
 #!/bin/bash
 
-LOCK="$TMP/sodbosha.lock"
+LOCK="/home/sharapov/weather.nsu.ru_telegram-bot/sodbosha.lock"
 
 case "$1" in
     "start")
