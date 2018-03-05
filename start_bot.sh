@@ -2,4 +2,15 @@
 
 source activate weather
 
-python3 bot.py
+try() {
+    python3 bot.py
+}
+
+catch() {
+    echo Shit happened!
+    sleep 5    
+}
+
+while true; do
+    try || catch
+done
